@@ -2,7 +2,7 @@ const currency1 = document.querySelector('#currency1');
 const currency2 = document.querySelector('#currency2');
 const amount1 = document.querySelector('.amount1');
 const amount2 = document.querySelector('.amount2');
-const inforate = document.querySelector('#infoRate')
+//const inforate = document.querySelector('#infoRate')
 const bttExchanche = document.querySelector('#exchange');
 
 const exchanger = () => {
