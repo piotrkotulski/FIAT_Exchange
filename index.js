@@ -14,8 +14,6 @@ const exchanger = () => {
         const exRate = data.rates[0].mid;
         
         amount2.value = (amount1.value * exRate).toFixed(2);
-         
-        console.log(exRate)
     })
 }
 bttExchanche.addEventListener('click', exchanger);
