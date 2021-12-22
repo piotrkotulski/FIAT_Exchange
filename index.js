@@ -6,7 +6,7 @@ const inforate = document.querySelector('#infoRate')
 const bttExchanche = document.querySelector('#exchange');
 
 const exchanger = () => {
-    fetch(`http://api.nbp.pl/api/exchangerates/rates/a/${currency1.value}/`)
+    fetch(`https://api.nbp.pl/api/exchangerates/rates/a/${currency1.value}/`)
     .then(res => res.json())
     .then(data => {
         const currency1Val =currency1.value;
